@@ -17,7 +17,7 @@ body {
 
 li {
 	display: inline-block;
-	padding: 0 4%;
+	padding: 0 15px;
 }
 
 h1 {
@@ -95,19 +95,29 @@ h2 {
 	min-height: 250px;*/
 }
 
+.banner {
+	margin-bottom: 10px;
+}
+
+.bannerimg {
+	border-width: 2px 0;
+	border-style: solid;
+	border-color: black;
+}
+
 .education {
 	.
 }
 
 .educationtext{
 	float: right;
-	width: 80%;
+	width: 70%;
 }
 
 .educationimg {
 	float: left;
-	width: 20%;
-	height: 100px;
+	width: 30%;
+	height: 300px;
 	border-width: 2px 2px 2px 0;
 	border-style: solid;
 	border-color: black;
@@ -132,7 +142,7 @@ h2 {
 	border-width: 2px 0px;
 	border-style: solid;
 	border-color: black;
-	padding: 30px 30%;
+	padding: 30px 35%;
 }
 
 /* Generic classes */
